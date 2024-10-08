@@ -7,7 +7,7 @@ jobs:
     name: Comment On Pull
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github@v1.0.0
+      - uses: actions/github@4f0213ed102c4b518a7ce8bc4e6268bdd710770e # v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
